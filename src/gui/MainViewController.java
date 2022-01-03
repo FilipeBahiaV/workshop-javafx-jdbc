@@ -29,7 +29,7 @@ public class MainViewController implements Initializable{
 		System.out.println("oi");
 	}
 	public void onMenuItemDepartmentAction() {
-		System.out.println("tchau");
+		loadView("/gui/DepartmentList.fxml");
 	}
 	public void onMenuItemAboutAction() {
 		loadView("/gui/About.fxml");
